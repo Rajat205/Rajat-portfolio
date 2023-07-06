@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8625ac6713.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="image/profile-pho.jpg">
+    <!-- AOS CDN LINK -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Rajat's portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#firstsection" class="logo">Rajat's Portfolio</a>
+            <div class="links ">
+                <ul id="slide-bar">
+                    <li><a onclick="hide()" href="#secondsection">About me</a></li>
+                    <li><a onclick="hide()" href="#thirdsection">Resume</a></li>
+                    <li><a onclick="hide()" href="#contact">Contact</a></li>
+                    <li><a onclick="hide()" href="image/Rajat's cv.pdf" download>Download</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="firstsection">
+        <div class="firstbox">
+            <h1 class="hi">Hello there!</h1>
+            <h1>I'm Rajat Soni</h1>
+            <h3>I'm <span id="element"></span></h3>
+            <a href="image/Rajat's cv.pdf" download class="btn">Download cv</a>
+        </div>
+        <img src="image/profile-pho.jpg" alt="" class="profile">
+        <ul>
+            <li class="lis1"><a href="https://www.instagram.com/rajat__soni7"><i class="fa-brands fa-instagram"
+                        style="color: #2a9d8f;"></i></a></li>
+            <li class="lis2"><a href="https://www.linkedin.com/in/rajat-soni7205/"><i class="fa-brands fa-linkedin"
+                        style="color: #2a9d8f;"></i></a></li>
+            <li class="lis3"><a href="https://twitter.com/Rajatsoni07"><i class="fa-brands fa-twitter"
+                        style="color: #2a9d8f;"></i></i></a>
+            </li>
+            <li class="lis4"><a href="https://github.com/Rajatsoni111"><i class="fa-brands fa-github"
+                        style="color: #2a9d8f;"></i></a></li>
+        </ul>
+    </section>
+    <section id="secondsection">
+        <div class="about ">
+            <img src="image/abt-pho.jpg" alt="" data-aos="fade-right">
+            <div class="about-1">
+                <h1 data-aos="fade-left">About Me</h1>
+                <p data-aos="fade"> I am a multi-talented person with a passion for creativity. I'm skilled in
+                    sketching, web development, and designing which showcase my artistic side. I have an eye for
+                    detail and a knack for bringing ideas to life. My hobbies include gaming and sketching, which
+                    allow me to express my creativity and relax. I am a well-rounded individual who is always
+                    looking for ways to learn and grow.</p>
+                <i class=" fas fa-arrow-up-from-arc" style="color: #ffffff;"></i>
+            </div>
+            <i class=" fas fa-regular fa-arrow-down-to-arc" style="color: #ffffff;"></i>
+        </div>
+
+        <section id="thirdsection">
+            <h1 class="title" data-aos="fade">Education</h1>
+
+            <div class="education">
+                <div class="detail0" data-aos="fade-up">
+                    <div class="detail0-1">
+                        <h2>2020-Present</h2>
+                        <h4>The Technological Institute of Textile & Sciences</h4>
+                        <h6>B.Tech in Computer Science</h6>
+                        <br>
+                        <h4>Bhiwani, Haryana</h4>
+                        <div class="grade">
+                            <!-- <h1>Grade</h1> -->
+                            <h3>still going on</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="detail" data-aos="fade-up">
+                    <div class="detail-1">
+                        <h2>2018-2021</h2>
+                        <h4>CH.BANSILAL GOVT.POLYTECHNIC COLLEGE</h4>
+                        <h6>Diploma in Computer Engineering</h6>
+                        <br>
+                        <h4>Bhiwani, Haryana</h4>
+                        <div class="grade">
+                            <h1>Grade</h1>
+                            <h3>7.20 GPA</h3>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="detail-2" data-aos="fade-up">
+                    <div class="detail-2-1">
+                        <h2>2017-2018</h2>
+                        <h4>SETH KIRORIMAL GOVT. SER. SCHOOL</h4>
+                        <h6>10th</h6>
+                        <br>
+                        <h4>Bhiwani, Haryana</h4>
+                        <div class="grade">
+                            <h1>Grade</h1>
+                            <h3>7.20 GPA</h3>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <div class="contact-info">
+                <h1>Contact me</h1>
+                <h4><i class="fa-solid fa-envelope" style="color: #2a9d8f;"></i> rishisoni11918@gmail.com</h4>
+                <h4><i class="fa-solid fa-phone" style="color: #2a9d8f;"></i> +91 9817695654</h4>
+                <ul>
+                    <li class="lis1"><a href="https://www.instagram.com/rajat__soni7"><i class="fa-brands fa-instagram"
+                                style="color: #2a9d8f;"></i></a></li>
+                    <li class="lis2"><a href="https://www.linkedin.com/in/rajat-soni7205/"><i class="fa-brands fa-linkedin"
+                                style="color: #2a9d8f;"></i></a></li>
+                    <li class="lis3"><a href="https://twitter.com/Rajatsoni07"><i class="fa-brands fa-twitter"
+                                style="color: #2a9d8f;"></i></i></a>
+                    </li>
+                    <li class="lis4"><a href="https://github.com/Rajatsoni111"><i class="fa-brands fa-github"
+                                style="color: #2a9d8f;"></i></a></li>
+                </ul>
+
+            </div>
+            <div class="container form" >
+                <form  name="submit-to-google-sheet" >
+                    <input type="text" name="Username" placeholder="Enter your name"  required>
+                    <input type="email" name="Email" placeholder="Enter your email" id="email" required>
+                    <textarea id="massage" name="Message" placeholder="Enter your message" cols="20" rows="5" required></textarea><br>
+                    <!-- <button>send</button> -->
+                    <button type="submit" name="submit" id="sent" onclick="send()">send</button>
+                </form>
+                <span id="sent-msg"></span>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Sketch artist', 'designer', 'web developer', 'photo editor'],
+                typeSpeed: 50,
+                loop: true,
+                loopCount: Infinity,
+            });
+        </script>
+
+        <!-- AOS script -->
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 300,
+                duration: 2000
+            })
+        </script>
+
+        <script>
+            let sidemenu = document.getElementById('slide-bar');
+            function hide() {
+                sidemenu.style.right="-200px";
+                sidemenu.style.transition="0.2s";
+            }
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+        <!-- ------contact form script------ -->
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyH2sIgkQ6NgkPUzMQ3NO1eKWtVoEgc7CVTk6ohtjZgn7b6xUph00Xl6FXY9DaxxbyEdg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById('sent-msg')
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML= "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    },3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+
+</body>
+
+</html>
